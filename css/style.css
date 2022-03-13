@@ -1,0 +1,116 @@
+/* global styles */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    height: 100%;
+}
+body{
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+/* /global styles */
+
+
+
+/* HEADER SECTION */
+.header {
+    background-color: #F6F6F6;
+    padding: 3rem 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-logo-link {
+    background-color:#fff;
+    padding: 0.9rem 0.6rem 0.8rem 0.6rem;
+}
+.currency-rates {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 3.5rem;
+}
+.currency-rates__item:first-child {
+    margin-right: 2.5rem;
+
+}
+.currency-rates__emblem {
+    color: #2959ce;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-right: 0.2rem;
+}
+.currency-rates__num {
+    font-size: 1.6rem;
+}
+.form__search-in{
+    margin-left: auto;
+}
+.search-in {
+    width: 275px;
+    font-size: 1.4rem;
+    padding: 1.5rem 1rem 1.3rem 4.1rem;
+    border-radius: 6rem;
+    margin-right: 2.8rem;
+    background-color: #fff;
+    background-image: url("../photos/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 17px 15px;
+    background-size: 15px 15px;
+    border: none;
+    outline: none;
+}
+.lang-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 36px;
+
+    border-radius: 39px;
+    padding: 0.3rem;
+    background-color:#DCE6FF;
+    margin-right: 2.5rem;
+}
+
+.lang-toggler__item{
+    width: 30px;
+    height: 30px;
+    padding: 8px ;
+    border-radius:50%;
+    color: #a6a6a6;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.active {
+    color:#000;
+    background-color: #fff;
+}
+.primary-btn{
+    font-weight: 500;
+    font-size:  1.6rem;
+    line-height: 18.96px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #7296EC;
+    text-decoration: none;
+}
+/* MAIN SECTION */
