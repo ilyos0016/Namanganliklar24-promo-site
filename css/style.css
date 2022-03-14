@@ -1,10 +1,14 @@
 /* global styles */
 *,
 *::after,
-*::before{
+*::before,
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+*:focus{
+
 }
 html{
     font-size: 10px;
@@ -27,11 +31,15 @@ body{
 
 
 /* HEADER SECTION */
+    /* top header */
 .header {
-    background-color: #F6F6F6;
-    padding: 3rem 0;
-}
 
+}
+.top-header{
+    background-color: #f6f6f6;
+    padding: 3rem 0;
+    margin-bottom: 1rem;
+}
 .header-container {
     display: flex;
     align-items: center;
@@ -39,6 +47,7 @@ body{
 .header-logo-link {
     background-color:#fff;
     padding: 0.9rem 0.6rem 0.8rem 0.6rem;
+    border-radius: 7px;
 }
 .currency-rates {
     list-style: none;
@@ -82,7 +91,6 @@ body{
     justify-content: center;
     width: 70px;
     height: 36px;
-
     border-radius: 39px;
     padding: 0.3rem;
     background-color:#DCE6FF;
@@ -112,5 +120,36 @@ body{
     color: #fff;
     background-color: #7296EC;
     text-decoration: none;
+}
+    /* bottom header */
+.bottom-header {
+    background-color: #fff;
+    }
+
+.bottom-header-nav-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid #D1D1D1;
+    
+}
+.bottom-header-nav-item:not(:last-child){
+    margin-right: 34.44px;
+}
+.bottom-header-nav-item a{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 21.33px;
+    color: #7F7F7F;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+.bottom-header-banner {
+    margin-top: 4rem;
+
 }
 /* MAIN SECTION */
