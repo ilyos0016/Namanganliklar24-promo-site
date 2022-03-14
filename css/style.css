@@ -1,7 +1,8 @@
 /* global styles */
 *,
 *::after,
-*::before{
+*::before,
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -149,6 +150,7 @@ body{
 
 }
 .bottom-header-banner {
+<<<<<<< HEAD
     display: flex;
     margin-top: 4rem;
     margin-bottom: 5rem;
@@ -231,3 +233,9 @@ body{
     line-height: 14.22px;
     color: #5E5F61;
 }
+=======
+    margin-top: 4rem;
+
+}
+/* MAIN SECTION */
+>>>>>>> 3fecee649643826b08c01265297b249e3c335959
