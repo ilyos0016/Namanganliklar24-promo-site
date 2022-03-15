@@ -164,7 +164,6 @@ body{
     justify-content: space-between;
 }
 .main-collection-item {
-   
     width: 393px;
     height: 382px;
     margin-bottom: 1rem;
@@ -172,7 +171,6 @@ body{
     background-color: #F6F6F6;
     border-radius: 15px;
 }
-
 .main-collection-link {
     text-decoration: none;
     
@@ -186,7 +184,7 @@ body{
     line-height: 26px;
     color: #000000;
     margin-bottom: 1rem;
-   
+
 }
 .main-clln-subtitle {
     width: 346px;
@@ -441,3 +439,23 @@ body{
     text-decoration: none;
 
 } 
+/* socials  */
+.hr-top-socials {
+    margin-bottom: 2rem;
+}
+.social-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-text {
+    width: 161px;
+    height: 46px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 23px;
+    color:#fff;
+}
+.social-icons a:not(:last-child){
+    margin-right: 2.5rem;
+}
