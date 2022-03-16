@@ -459,3 +459,78 @@ body{
 .social-icons a:not(:last-child){
     margin-right: 2.5rem;
 }
+                        /*      PAGE 2      */
+/* header  */
+/* main  */
+.main {
+}
+.main-clln-page2 {
+}
+
+.main-clln-top-title{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.844rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+.main-clln-left-page2 {
+}
+.main-clln-item {
+    width: 797px;
+    height: 205px;
+    display: flex;
+    padding: 2rem 2rem 2rem 1.7rem;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    
+}
+.main-clln-item:not(last-child){
+    margin-bottom: 1rem;
+}
+.main-clln-linker{
+    text-decoration: none;
+    
+}
+.main-clln-img {
+    width: 210px;
+    height: 165px;
+    margin-right: 1.5rem;
+}
+.main-clln-wrap {
+    
+}
+.wrap-title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.wrap-subtitle {
+    width: 535px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #4A4B4C;
+    margin-bottom: 1.7rem;
+}
+.main-clln-recommend {
+    display: flex;
+    align-items: center;
+}
+.main-clln-recommend-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+.main-clln-recommend-text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.422rem;
+
+}
+.main-clln-recommend-date-time {
+}
