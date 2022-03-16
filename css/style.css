@@ -465,6 +465,7 @@ body{
 .main {
 }
 .main-clln-page2 {
+    display: flex;
 }
 
 .main-clln-top-title{
@@ -476,6 +477,7 @@ body{
 }
 
 .main-clln-left-page2 {
+    margin-right: 1rem;
 }
 .main-clln-item {
     width: 797px;
@@ -530,7 +532,72 @@ body{
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.422rem;
-
+    color: #5e5f61;
+    margin-right: 0.3rem;
 }
 .main-clln-recommend-date-time {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.422rem;
+    color: #5e5f61;
+    
+}
+.main-clln-left-bm-btn{
+    width: 797px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.896rem;
+    color: #000;
+    display: inline-block;
+    background-color: #EAEAEA;
+    border-radius: 1rem;
+    padding: 1.7rem ;
+    text-decoration: none;
+    text-align: center;
+}
+.main-clln-right-page2 {
+}
+.main-clln-right-linker {
+    text-decoration: none;
+    display: flex;
+}
+.main-clln-right-item {
+    width: 393px;
+    height: 502px;
+    padding: 2rem 1.7rem 2.5rem 1.7rem;
+    background-color: #F6F6F6;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+.main-clln-right-item-top-title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.844rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+.main-clln-right-item-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #000;
+    margin-bottom: 0.8rem;
+}
+.main-clln-right-item-recommend {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.541rem;
+    color: #5E5F61;
+    margin-bottom: 2rem;
+}
+.main-clln-right-item-recommend:not(:last-child){
+    
+
+}
+.sidebar-hr {
+}
+.main-clln-right-item-img{
+    width: 393px;
+    height: 553px;
+
 }
