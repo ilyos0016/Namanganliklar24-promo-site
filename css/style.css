@@ -7,9 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-*:focus{
 
-}
 html{
     font-size: 10px;
     height: 100%;
@@ -782,4 +780,102 @@ body{
 }
 .main-bootom-item-text {
     margin-right: 0.4rem;
+}
+/* page 4 */
+.main {
+}
+.main-wrap {
+    display: flex;
+    margin-bottom: 10rem;
+    
+}
+.main-left {
+    width: 696px;
+    margin-right: 1rem;
+}
+.main-left-title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.844rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+.main-left-form {
+}
+.main-left-input {
+    width: 343px;
+    height: 55px;
+    border-radius: 1rem;
+    outline: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1.8rem 0 1.8rem 2rem;
+    border-color: #ddd4d4;
+    margin-bottom: 1rem;
+}
+.fff{
+    margin-right:0.75rem ;
+}
+.main-left-input:not(:last-child){
+    margin-right: rem;
+}
+    
+.main-left-input-block1 {
+    width: 696px;
+    height: 55px;
+    border-radius:1rem;
+    outline: none;
+    border-color: #ddd4d4;
+    font-size: 1.6rem;
+    padding: 1.8rem 0 1.8rem 2rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.main-left-input-block2 {
+    width: 696px;
+    height: 180px;
+    outline: none;
+    border-color: #ddd4d4;
+    font-size: 1.6rem;
+    border-radius:1rem;
+    resize: none;
+    padding: 1.8rem  0 0 2rem;
+    display: block;
+    margin-bottom: 2rem;
+}
+.main-left-btn {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.896rem;
+    color: #fff;
+    border: none;
+    background-color: #7297EF;
+    padding:1.7rem 3rem;
+    border-radius:1rem;
+    display:block;
+    margin-left:auto;
+}
+.main-right {
+    width: 494px;
+    height: 310px;
+    border-radius:1rem; 
+    background-color: #F6F6F6;
+    padding: 4rem 2.5rem;
+}
+.main-right-title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.37rem;
+    color: #000;
+    margin-bottom: 0.7rem;
+}
+.main-right-subtitle {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.896rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+.main-right-hr {
+    margin-bottom: 2rem;
 }
