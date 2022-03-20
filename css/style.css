@@ -973,6 +973,10 @@ body{
     width: 696px;
     margin-right: 1rem;
 }
+.main-left-title:hover{
+    color: #7296EC;
+    cursor: pointer;
+}
 .main-left-title {
     font-weight: 500;
     font-size: 2.4rem;
@@ -1023,6 +1027,12 @@ body{
     display: block;
     margin-bottom: 2rem;
 }
+.main-left-btn:hover{
+    opacity: 0.8;
+}
+.main-left-btn:active{
+    opacity: 0.6;
+}
 .main-left-btn {
     font-weight: 500;
     font-size: 1.6rem;
@@ -1042,12 +1052,28 @@ body{
     background-color: #F6F6F6;
     padding: 4rem 2.5rem;
 }
+.main-right-title:hover{
+    color: #7296EC;
+    cursor: pointer;
+}
+
 .main-right-title {
     font-weight: 500;
     font-size: 2rem;
     line-height: 2.37rem;
     color: #000;
     margin-bottom: 0.7rem;
+}
+.main-right-subtitle:hover{
+    color: #7296EC;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main-right-subtitle:active{
+    color:#7296EC ;
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 0.6;
 }
 .main-right-subtitle {
     font-weight: 400;
