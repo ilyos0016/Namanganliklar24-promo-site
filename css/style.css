@@ -573,13 +573,18 @@ body{
 .main-clln-page2 {
     display: flex;
 }
-
+.main-clln-top-title:hover{
+    color: #7296EC;
+    
+}
+.main-clln-
 .main-clln-top-title{
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 2.844rem;
     color: #000;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    
 }
 
 .main-clln-left-page2 {
@@ -608,6 +613,15 @@ body{
 }
 .main-clln-wrap {
     
+}
+.wrap-title:hover{
+    color: #7296EC;
+    text-decoration: underline;
+}
+.wrap-title:active{
+    color: #7296EC;
+    text-decoration: underline;
+    opacity: 0.6;
 }
 .wrap-title {
     font-weight: 500;
@@ -648,6 +662,16 @@ body{
     color: #5e5f61;
     
 }
+.main-clln-left-bm-btn:hover{
+    background-color: #7296EC;
+    color:#fff;
+    
+}
+.main-clln-left-bm-btn:active{
+    background-color: #7296EC;
+    color:#fff;
+    opacity: 0.6;
+}
 .main-clln-left-bm-btn{
     width: 797px;
     font-weight: 500;
@@ -676,12 +700,24 @@ body{
     border-radius: 1.5rem;
     margin-bottom: 1rem;
 }
+.main-clln-right-item-top-title:hover{
+    color: #7296EC;
+}
 .main-clln-right-item-top-title {
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 2.844rem;
     color: #000;
     margin-bottom: 2rem;
+}
+.main-clln-right-item-title:hover{
+    color: #7296EC;
+    text-decoration: underline;
+}
+.main-clln-right-item-title:active{
+    color: #7296EC;
+    text-decoration: underline;
+    opacity: 0.6;
 }
 .main-clln-right-item-title {
     font-weight: 500;
