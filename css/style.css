@@ -781,6 +781,15 @@ body{
     text-decoration: none;
     
 }
+.main-top-left-title:hover{
+    color: #7296EC;
+    text-decoration: underline;
+}
+.main-top-left-title:active{
+    color: #7296EC;
+    text-decoration: underline;
+    opacity: 0.6;
+}
 .main-top-left-title {
     font-weight: 500;
     font-size: 2.6rem;
@@ -829,12 +838,25 @@ body{
 .main-top-right-wrap a{
     text-decoration: none;
 }
+.right-wrap-top-title:hover{
+    color: #7296EC;
+    cursor: pointer;
+}
 .right-wrap-top-title {
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 2.844rem;
     color: #000;
     margin-bottom: 2.5rem;
+}
+.right-wrap-title:hover{
+    color: #7296EC;
+    text-decoration: underline;
+}
+.right-wrap-title:active{
+    color: #7296EC;
+    text-decoration: underline;
+    opacity: 0.6;
 }
 .right-wrap-title {
     font-weight: 500;
@@ -869,6 +891,10 @@ body{
     margin-bottom: 10rem;
 
 }
+.main-bottom-title:hover{
+    color: #7296EC;
+    cursor: pointer;
+}
 .main-bottom-title {
     font-weight: 500;
     font-size: 2.4rem;
@@ -890,6 +916,16 @@ body{
 }
 .main-bottom-item a{
     text-decoration: none;
+}
+.main-bottom-item-title:hover{
+    color: #7296EC;
+    text-decoration: underline;
+
+}
+.main-bottom-item-title:active{
+    color: #7296EC;
+    text-decoration: underline;
+    opacity: 0.6;
 }
 .main-bottom-item-title {
     width: 358px;
